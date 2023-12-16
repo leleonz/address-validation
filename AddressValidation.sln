@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E73B428A-F4EF-4F21-AF4E-867A37732ADA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddressValidation.Api", "src\AddressValidation.Api\AddressValidation.Api.csproj", "{DFDA5CBA-5EA4-48DB-B2D8-414CB33ED426}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddressValidation.Domain", "src\AddressValidation.Domain\AddressValidation.Domain.csproj", "{AEB80E2C-A67D-4948-93DC-85883CE369BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddressValidation.Data", "src\AddressValidation.Data\AddressValidation.Data.csproj", "{7B130E8C-1158-4B16-A387-BE8CCE2D3D34}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{DB07A495-9C47-4DBB-B874-6CEBEC8F6A97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddressValidation.UnitTest", "test\AddressValidation.UnitTest\AddressValidation.UnitTest.csproj", "{093D3606-DEE7-419B-8BD1-1EECCE6DC926}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddressValidation.IntegrationTest", "test\AddressValidation.IntegrationTest\AddressValidation.IntegrationTest.csproj", "{F839DFF9-83DF-4FEB-A5F6-9FF55AC265EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DFDA5CBA-5EA4-48DB-B2D8-414CB33ED426}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFDA5CBA-5EA4-48DB-B2D8-414CB33ED426}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFDA5CBA-5EA4-48DB-B2D8-414CB33ED426}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFDA5CBA-5EA4-48DB-B2D8-414CB33ED426}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEB80E2C-A67D-4948-93DC-85883CE369BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEB80E2C-A67D-4948-93DC-85883CE369BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEB80E2C-A67D-4948-93DC-85883CE369BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEB80E2C-A67D-4948-93DC-85883CE369BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B130E8C-1158-4B16-A387-BE8CCE2D3D34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B130E8C-1158-4B16-A387-BE8CCE2D3D34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B130E8C-1158-4B16-A387-BE8CCE2D3D34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B130E8C-1158-4B16-A387-BE8CCE2D3D34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{093D3606-DEE7-419B-8BD1-1EECCE6DC926}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{093D3606-DEE7-419B-8BD1-1EECCE6DC926}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{093D3606-DEE7-419B-8BD1-1EECCE6DC926}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{093D3606-DEE7-419B-8BD1-1EECCE6DC926}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F839DFF9-83DF-4FEB-A5F6-9FF55AC265EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F839DFF9-83DF-4FEB-A5F6-9FF55AC265EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F839DFF9-83DF-4FEB-A5F6-9FF55AC265EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F839DFF9-83DF-4FEB-A5F6-9FF55AC265EA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DFDA5CBA-5EA4-48DB-B2D8-414CB33ED426} = {E73B428A-F4EF-4F21-AF4E-867A37732ADA}
+		{AEB80E2C-A67D-4948-93DC-85883CE369BE} = {E73B428A-F4EF-4F21-AF4E-867A37732ADA}
+		{7B130E8C-1158-4B16-A387-BE8CCE2D3D34} = {E73B428A-F4EF-4F21-AF4E-867A37732ADA}
+		{093D3606-DEE7-419B-8BD1-1EECCE6DC926} = {DB07A495-9C47-4DBB-B874-6CEBEC8F6A97}
+		{F839DFF9-83DF-4FEB-A5F6-9FF55AC265EA} = {DB07A495-9C47-4DBB-B874-6CEBEC8F6A97}
+	EndGlobalSection
+EndGlobal
