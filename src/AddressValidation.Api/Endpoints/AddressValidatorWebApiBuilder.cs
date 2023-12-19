@@ -8,7 +8,7 @@ namespace AddressValidation.Api.Endpoints
     {
         public static void BuildAddressValidatorWebApis(this IEndpointRouteBuilder app)
         {
-            RouteGroupBuilder addressValidationApi = app.MapGroup("/address-validator");
+            RouteGroupBuilder addressValidationApi = app.MapGroup("/address-validators");
 
             addressValidationApi.MapPost("/", async (ValidateAddressesRequest request, IAddressValidationService service) =>
             {
